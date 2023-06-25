@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+    <title>NuSkin</title>
+       
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="robots" content="noindex, follow">
+       <link href="css\style.css"  type="text/css" rel="stylesheet">
+       <script src="main.js"></script>
+    </head>
+<body> 
+   <body> 
+      <div class="header"></div>
+            <div class="sigle">
+                  <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\sigla.png">
+                </div>
+         </div>      
+   <div class="containerNuskin"> 
+      <div class="weather">
+         <a href="https://weather.com/"><h4>Vremea in orasul tau!</h4>
+      <div class="overlay"></div></a>
+      </div>
+      
+      <div class="buton">
+          
+         <div class="dropdown">
+         <a href="file:///C:/Users/Artistu/Desktop/livia/itsch_curs/NuSkin/NuSkin.html" class="buton1"><p>Acasa</p></a></div>
+          
+         <div class="dropdown">
+            <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\produse.html" class="buton3"><p>Produse</p></a>
+            <div class="dropdown-content">
+              <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\cosmetice.html" class="buton2"><center>Cosmetice</center></a>
+              <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\tratamente.html" class="buton2"><center>Tratamente</center></a>
+              <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\suplimente.html" class="buton2"><center>Suplimente</center></a>
+            </div>
+          </div>
+          <div class="dropdown">
+          <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\contact.html" class="buton4"><p>Contact</p></a></div>
+          <div class="dropdown">
+          <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\vlog.html" class="buton5"><p>Vlog</p></a></div>
+          </div>
+      </div>
+    
+      <div class="top">
+       
+         <div class="col">
+            <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\cosmetice.html"><h4>Cosmetice</h4>
+         <div class="overlay">
+         
+         </div></a>                  
+         </div>
+         <div class="col">
+            <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\tratamente.html"><h4>Tratamente</h4>
+           <div class="overlay">
+           
+         </div></a>
+         </div>
+         <div class="col">
+         <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\suplimente.html"><h4>Suplimente</h4>
+           <div class="overlay">
+         
+           </div></a>
+           </div>
+      </div> 
+    
+   <div class="middle">
+
+<div class="oferta">
+<form >
+<center><h1>Cerere oferta produs:</h1></center>
+<br>
+
+<label for="titlu">Titlu</label>
+<input type="text" id="titlu" name="Titlu" value="Dna./Dl." placehoder="ex: Dna./Dl." required>
+<label for="prenume">Prenume</label>
+<input type="text" id="prenume" name="Prenume*" placeholder="ex: Petre" required>
+
+<label for="name">Nume</label>
+<input type="text" id="name" name="Nume*" placeholder="ex: Popescu" required><br><br>
+<div class="prenume-error-message"></div>
+<div class="name-error-message"></div>
+   <label for="phone">Numar de telefon:</label>
+   <input type="text" name="Numar de telefon" id="phone" placeholder="ex: +40..." required>
+<label for="email">Email</label>
+<input type="email" id="email" name="Email*" placeholder="xyz@abcd.com" required>
+<div class="phone-error-message"></div><div class="email-error-message"></div>
+<br>
+<br>
+<br><label for="produs">Produs:</label>
+<input type="text" id="produs" name="Produs" placeholder="ex:crema" required>
+<label for="nr_adulti">Numar produse</label>
+<input type="number" id="nr_produse" name="Numar produse" placeholder="ex:2" required>
+
+<div class="produs-error-message"></div>
+
+<br>
+<br>
+<li>
+   <label for="locatie">Adresa</label>
+   <input type="text" id="locatie" name="Adresa" placeholder="ex: str:xyz, nr:1, oras: Bucuresti">
+   <label for="data_cerere">Data cerere: </label>
+   <input type="date" id="data_cerere" name="Data cerere" placeholder="ex: 30.06.2023" required>
+   <label for="cod_postal">Cod postal</label>
+<input type="number" id="cod_postal" name="Cod Postal" value="Cod postal" placeholder="ex: 062345" disabled>
+   <div class="adresa-error-message"></div></li>
+</div>
+<div id="respond" class="comment-respond">
+   
+      <label class="control-label" for="comment"><b><h3>Lasa un mesaj</h3></b></label>
+      <div class="controls">
+        
+         <textarea class="span" id="comment" name="comment" rows="10" aria-required="true"></textarea></div>
+      
+<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto,checkbox"> 
+<label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notifică-mă prin email când sunt publicate alte comentarii.</label></p><p class="comment-subscription-form">
+<input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto, checkbox"> 
+<label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notifică-mă prin email când sunt publicate articole noi.</label></p><p class="form-submit">
+<input name="submit" type="submit" id="submit" class="submit btn btn-primary btn-small" value="Trimite comentariul">
+<input type="hidden" name="comment_post_ID" value="40838" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0"></p><p style="display: none;">
+<input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="5904c35cc9"></p></div><p style="display: none !important;"><label>Δ
+   <textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label>
+   <input type="hidden" id="ak_js_1" name="ak_js" value="1681999435441"></p></div>
+</form>
+<div class="form-result"></div> 
+</div>
+
+<div class="cursor"></div>
+<div class="bottom2">
+    <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\4.jpg" class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://bit.ly/40nnkeq"><b>Igiena dintilor</b></a></div>
+       </div>
+    </div>
+    <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\Pic1.jpg"class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://bit.ly/3wVBVAj"><b>Rujuri</b></a></div>
+       </div>
+    </div>
+    <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\19.jpg" class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://bit.ly/3RwHizx"><b>Detox</b></a></div>
+       </div>
+    </div>
+    <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\15.1.jpg" class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://www.facebook.com/NuSkinCosmetice/photos"><b>Lotiuni de corp</b></a></div>
+       </div>
+    </div>
+    <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\6.jpg" class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://www.facebook.com/NuSkinCosmetice/photos"><b>Fond de ten</b></a></div>
+       </div>
+     </div>
+    <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\galvanic.jpg" class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://www.facebook.com/NuSkinCosmetice/photos"><b>Galvanice</b></a></div>
+       </div>
+    </div>
+     <div class="col1">
+       <img src="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\img\20.jpg" class="image">
+       <div class="overlay">
+       <div class="text"><a href="https://www.facebook.com/NuSkinCosmetice/photos"><b>Lotiuni masaj</b></a></div>
+       </div>
+    </div>
+     
+        <div class="space"></div>
+         <div class="col">
+           <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\conditii.html"><h4><center>Conditii</center></h4>
+           <div class="overlay">
+           <div class="text"></div>
+           </div>
+        </div> 
+        <div class="col">
+         <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\feedback.html"><h4><center>FeedBack</center></h4>
+         <div class="overlay">
+         <div class="text"></div>
+         </div>
+        </div>  
+      <div class="col">
+       <a href="C:\Users\Artistu\Desktop\livia\itsch_curs\NuSkin\Plata.html"><h4><center>Plata</center></h4>
+       <div class="overlay">
+       <div class="text"></div>
+      </div>
+  </div> 
+                  
+</div>
+
+</div>
+<footer>
+   <div class="cursor1"></div> 
+   <p>
+       <br>Livia Manea © 2023. Toate drepturile rezervate.
+     </p>
+   </div>
+ </footer>
+
+</body>
+</html>
