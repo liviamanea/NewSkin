@@ -1,5 +1,5 @@
 # NewSkin
-American cosmetics site
+Site de prezentare proiect
 
 ## About NewSkin
 
