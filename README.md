@@ -2,8 +2,7 @@
 Site de prezentare proiect
 
 ## About NewSkin
-
-American cosmetics site - shop cards for cosmetics, green tratments, healty meals supplements
+shop cards for cosmetics, green tratments, healty meals supplements
 
 ## Built By
 
