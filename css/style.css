@@ -1,21 +1,12 @@
 
 
-body{margin:auto;
-  margin-left: 10%;
-  width: auto;
-  height:100%;
+body, html {
+  align-content: center;
+width: 1300px;
+  height:min-content;
 
 }
-.header{
-  background-color: white;
-  position: absolute;
-  z-index: 1;
-  font-family: var(--font-family);
-  margin-right: 50px;
-  width: 100%;
-  padding: 0 10px;
-  max-height: max-content;
-}
+
 
 
 :root { 
@@ -23,31 +14,38 @@ body{margin:auto;
 --font-size: 20px;
 
 }
-.containerNuskin, .containerplata, .containerconditii {
+
+.conditii {margin-top: 100px;
+  position: absolute;
+  flex-direction:column;
+  font-family: var(--font-family);
+flex-wrap: wrap;
+margin-left:300px;
+  }
+
+
+
+.plata {
   font-family:var(--font-family);
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+
   width: auto;
   height: fit-content;
   align-content: center; 
- margin: 0px;
- 
+     position: relative;
+    margin: 30px;
+    margin-top: 50px;
+    }
 
-}
 
-.sigle {
-flex-direction: row;
-position: fixed;
-z-index: 1;
-align-content: center;
-width: 100%;
-}
+
 
 .col, .col1 {
     position: relative;
     width: 100%;
     padding:15px;
-    margin-top: 10px;
+    margin-top: 1%;
     
   }
 
@@ -106,80 +104,45 @@ height: auto;}
     position:fixed;
     margin-top: 200px;
     background-color: white;
-    margin-left:980px;
+    margin-left:80px;
     width: auto;
     z-index: 1;
   }
 
-     .weather {
-      
-      direction:row;
-      position: fixed;
-      z-index: 1;
-      font-family: var(--font-family);
-      padding: 15px;
-       margin-top: 200px;
-       align-items:flex-start;
-      max-width:fit-content;
-   
-      border-radius: 10%;
-      margin-left: 10px;;
 
-      
-     }
 .middle{
-  max-width: 1200px;
+  max-width: auto;
       display: flex;
-      padding: 15px;
+      padding: 10px;
       flex-direction: column;
-      margin-top: 230px;
+      margin-top: 300px;
    height:100px;
- 
+ margin-left: 120px;
   }
 
+.spate {
+  background-color: white;  
+margin-left: 70px;
+  width: 1300px;
+  height: 400px;
+  position: fixed;
+  top: 0px;
+   z-index: 1; 
 
-.bigpic {
+}
+.spate1 {
+  background-color: white;  
+margin-left: 70px;
+  width: 1300px;
+  height: 400px;
+  position: fixed;
+  top: 0px;
+   z-index: 1; 
+   margin-left: 250px;
 
-width: fit-content;
-margin-left: 40px;
- position: absolute; 
- margin-top:100px ;
- display: flex;
- flex-direction: column;
- margin-right: 60px;
- z-index: -1;
- box-shadow: 0 10px 10px rgb(124, 167, 203);
- }
+}
 
- .linkuri {
- 
-  font-family: var(--font-family);
-  margin-left:1010px;
-  text-align: left;
-  font-size: 17px;
-  color: rgb(15, 14, 14);
-  position:absolute;
-  align-items:right ;
- 
-  width: 250px;
-  height: fit-content;
-  border-radius: 5px;
-  box-shadow: 0 1px 10px  rgb(124, 167, 203);
-  }
- .linkuri1 {
-  margin-top:100px;
-  font-family: var(--font-family);
-  margin-left:1010px;
-  text-align: left;
-  font-size: 17px;
-  color: rgb(15, 14, 14);
-  position:absolute;
-  align-items:right ;
-  border:1px solid rgb(236, 90, 4);
-  width: 250px;
-  height: fit-content;
-  border-radius: 5px;
-  }
+
   .buton {
    background-color: white;  
   display:flex;
@@ -187,8 +150,8 @@ margin-left: 40px;
   height: fit-content;
   flex-direction: row;
   position: fixed;
-    margin-top: 150px;
-  margin-left: 420px;
+ margin-top: 320px;
+  right:  6%;
   font-family: var(--font-family);
   font-weight: bold;
    text-align: center;
@@ -199,7 +162,7 @@ margin-left: 40px;
 
  .buton1, .buton2, .buton3, .buton4, .buton5 {
   border-bottom:1px solid rgb(124, 167, 203);
-  padding: 15px;
+  padding: 5px;
   display:flex;
   flex-direction: column;
   border-radius: 5px;
@@ -207,14 +170,29 @@ margin-left: 40px;
  z-index: 1;
  }
  
-.harta{
-  margin-top: 100px;
+.harta {
+  margin-top: 80px;
+  margin-left: 300px;
+  width: 700px;
+  height: 320px;
+     position: absolute;
+     background-color: rgb(235, 237, 239);
+  flex-direction: row;
+  overflow: scroll;  
+    border: 1px solid rgb(160, 152, 152); 
+    padding-top: 0 0px;
+    
+ }
+
+ 
+ .harta1{
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  width: 100%;
+  margin-left: 150px;
+ height: 300px;
+
  }
- 
  iframe{
   width:70vh;
   height:50vh;
@@ -225,26 +203,31 @@ margin-left: 40px;
 
  
 footer {   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0%;
+  margin-top: 0px;
   width: 100%;
   word-wrap: normal;
   background-color: white;
   color: rgb(10, 10, 10);
   text-align: center;
-  
+  height: 20px;
+  font-family: var(--font-family);
+  background-color: rgb(235, 237, 239)
 }
 
   
 .cursor1 {  width: 10px;
   height:1px;
    position: relative;
-  animation: mymove 7s infinite;
-  margin-left: 10px;
+  animation: mymove 7s;
+  
+   margin-left: 10px;
    }
  @keyframes mymove { 
       0% {right: 0px; background: rgb(236, 90, 4); width: 10px;}
-  75% {left: 10px; background:  rgb(124, 167, 203); width: 95%}
+  75% {left: 10px; background:  rgb(124, 167, 203); width: 100%}
+  
   }
  
  .bottom {
@@ -263,26 +246,17 @@ footer {   position: fixed;
 
 .bottom2 {
   position: relative;
-  margin-top: 600px;
-  bottom: 0;
+ 
   width: 100%;
   align-items:flex-start;
   display: flex;
   max-width:fit-content;
+  margin-top: 1%;
+  margin-bottom: 10px;
   }
 
 
-.carduri { 
-  border-bottom: 1px solid rgb(236, 90, 4);
-  max-width: 100%;
-  border-radius: 5px;
-margin:40px;
-align-items: center;
-display: flex;
-box-sizing: border-box;
-flex-direction: column;
 
-}
 .lista_produse{
 display: flex;
 flex-direction: row;
@@ -301,7 +275,7 @@ p {
 
 }
 
-button {
+.button {
   font-size: larger;
  color: #e5f0e6;
   font-family: var(--font-family);
@@ -312,39 +286,44 @@ button {
     text-align: center;
     cursor: pointer;
     border-radius: 5px;
+  margin-bottom: 10px;
+ margin-left: 10%;
   }
 
 
+  .linkuri {margin-top: 100px;
+    position: absolute;
+    flex-direction:column;
+    font-family: var(--font-family);
+  flex-wrap: wrap;
+  margin-left: 800px;
+padding-inline: 10px;
+height: 350px;
+    }
 
-.conditii {margin-top: 100px;
-  position: absolute;
-  flex-direction:column;
-  font-family: var(--font-family);
-flex-wrap: wrap;
-margin-left:300px;
-  }
-
-  .contract, .carduri-conditii { 
-    border-bottom: 1px solid rgb(124, 167, 203);
+.carduri { 
+  
     width: auto;
     border-radius: 5px;
   align-items: center;
   display: flex;
   max-height: fit-content;
-  size: 15px;
+  size: 300px;
   box-sizing: border-box;
-  padding-top: 50px;
-  margin-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 50px;
 }
+
+
 .card-contact { 
   border-bottom: 1px solid rgb(124, 167, 203);
   width: auto;
   border-radius: 5px;
 align-items: end;
-padding: 10px;
+padding: 5px;
 display: flex;
-max-height: fit-content;
-size: 15px;
+height:50px;
+size: 10px;
 box-sizing: border-box;
 
 
@@ -353,9 +332,11 @@ box-sizing: border-box;
   width: 450px;
   height: 200px;
   position: relative;
- margin-top: 60px;
- margin-left: 170px;
+ margin-top: 5px;
+ margin-left: 100px;
+
 }
+
 .checkbox
 {
   width: auto;
@@ -363,6 +344,7 @@ box-sizing: border-box;
  border-left: 1px solid rgb(124, 167, 203);
 }
 .scris{
+
   width: 150px;
   height: fit-content;
 
@@ -471,29 +453,28 @@ a:visited {  color:rgb(4, 79, 139);
   align-items: center;
  
 }
-.video{  
-  width: 360px;
-  padding-top: 40px;
-margin: 10px;
-display:flex;
-height: 400px;
-flex-direction: row;
-
+.video {  
+ 
+margin-left: 100px;
+margin:80px;
+display: flex;
+flex-direction:row;
+width: 150px;
 }
-.cash, .transfer, #plati-online {
-border-bottom: 1px solid rgb(124, 167, 203);
-  border-radius: 5px;
-  flex-wrap: wrap;
-margin-top: 40px;
 
+.cash, .transfer {
+  flex-wrap: wrap;
+margin-top: 20px;
 border-width: 50%;
 }
-.plata{
-  flex-direction: column;
-  position: relative;
-  margin: 30px;
-  margin-top: 350px;
+.plati {
+  border-bottom: 1px solid rgb(124, 167, 203);
+   
+    flex-wrap: wrap;
+  margin-top: 20px;
+  border-width: 50%;
   }
+
   
   .scroll-to-top {
     visibility: hidden;
@@ -507,16 +488,20 @@ border-width: 50%;
     flex-direction: column;
     position: relative;
     margin: 30px;
-    margin-top: 100px;
+    margin-top: 170px;
+    margin-left: 120px;
   }
   
 .controls, .oferta {
-padding: 20px;
+padding: 10px;
 max-width:auto;
 display:flex;
 flex-direction: column;
-
+margin-left: 120px;
+margin-top: 15px;
 }
+
+
 .shopping{
   position: fixed;
   text-align: left;
