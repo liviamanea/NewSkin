@@ -13,7 +13,7 @@ This project is built and shared by
 
 ## Feedback
 
-If you have any feedback, please reach out to us at liviuta@hotmail.com
+If you have any feedback, please reach out to us at traveling4info@gmail.com
 
 
 ## Tags
